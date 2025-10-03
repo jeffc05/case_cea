@@ -126,8 +126,6 @@ def handle_message():
         response = product_agent(message)
     else:
         response = "Agente desconhecido."
-        
-    print(response)
 
     # Salvar histórico
     c.execute('''
