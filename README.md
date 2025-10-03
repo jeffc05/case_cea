@@ -1,2 +1,4 @@
-# case_cea
-Case C&amp;A - Cientista de Dados
+# Case C&A - Cientista de Dados
+
+## Visão Geral
+Esta aplicação de chat inteligente consiste em um sistema RESTful que integra dois agentes especializados: um de SAC, que responde perguntas relacionadas às políticas da empresa usando busca por conhecimento em um arquivo Markdown, e outro de Produtos, que realiza buscas no catálogo fornecido. Mantendo o histórico das conversas em um banco SQLite, ela permite iniciar sessões, enviar mensagens específicas aos agentes, obter respostas contextuais e recuperar o histórico completo da conversa, proporcionando uma interação contínua e personalizada para o usuário.
